@@ -31,13 +31,13 @@ reset="\033[0m"
 # print_style "$cyan" "This is cyan text."
 # print_style "$white" "This is white text."
 
-print_style "$bold" "$white" "$red" "Updating and Upgrading machine." 
+print_style "$bold" "$white" "$red" "Updating and Upgrading machine."
 # sudo apt-get update && sudo apt-get upgrade -y
 echo " "
 
 # List of packages to install
-print_style "$bold" "$red" "$white" "Installing needed packages." 
-packages=("code" "gnome-disk-utility")
+print_style "$bold" "$red" "$white" "Installing needed packages and apps."
+packages=("code" "gnome-disk-utility" "baobab" "conky" "rpi-connect" "qbittorrent" "qbittorrent-nox")
 spacing="  "
 
 # Loop through each item
