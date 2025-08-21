@@ -37,7 +37,7 @@ echo " "
 
 # List of packages to install
 print_style "$bold" "$red" "$white" "Installing needed packages and apps."
-packages=("code" "neofetch" "gnome-disk-utility" "baobab" "conky" "rpi-connect" "qbittorrent" "qbittorrent-nox")
+packages=("code" "neofetch" "gnome-disk-utility" "baobab" "conky" "rpi-connect" "qbittorrent" "qbittorrent-nox", "btop")
 spacing="  "
 
 # Loop through each item
